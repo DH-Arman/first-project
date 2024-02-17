@@ -1,0 +1,341 @@
+*{
+   margin:0px;
+   padding: 0px;
+   box-sizing: border-box;
+
+}
+
+
+/*=========================
+            HEADER CSS
+===========================*/
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background-color: aquamarine;
+ }
+ 
+ .logo img {
+     width: 140px;
+    
+ } 
+ 
+ /* .menu {
+ 
+ } */
+ 
+ .menu li {
+    display: inline;
+    padding-left: 1rem;
+
+ }
+ 
+ .menu a {
+   
+    text-decoration: none;
+    color: #3554aa;
+    font-weight: 500;
+    font-size: 1.2rem;
+    transition: all 0.5 ease;
+}
+
+.menu a:hover{
+   color:red;
+}
+
+/*=========================
+            HERO CSS
+===========================*/
+
+
+
+ .hero-section{
+    background-image: url(images/clock.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 3rem 121px 8rem ;
+
+
+
+
+ }
+ .hero-text{
+    width: 95%;
+    margin: 0 auto;
+   
+
+ }
+
+ .hero-text h2{
+   font-size: 3.5rem;
+   color: black;
+
+ }
+ .hero-text p{
+   width: 25%;
+   font-size: 1.1rem;
+   line-height: 2rem;
+   margin: 2rem 0;
+   color:black;
+
+ }
+ .hero-text button{
+
+   background: aquamarine;
+   border: 0;
+   padding: 1rem 1.3rem;
+   font-size: 1rem;
+   border-radius: 5px;
+   color: #575757;
+   cursor: pointer;
+   transition: all 0.5 ease;
+
+ }
+ .hero-text button:hover{
+   background-color: red;
+   color:white;
+ }
+
+ /*=========================
+            ABOUT CSS
+===========================*/
+
+.about-section{
+
+padding: 5rem 0;
+}
+
+.section-title {
+   /* margin: -8px 11rem; */
+   text-align: center;
+}
+.section-title h2{
+   font-size: 3.5rem;
+   color: #2b2b2b;
+   
+
+}
+
+.section-title p{
+   font-size: 1.3rem;
+   color: #2b2b2b;
+
+}
+
+.about-content{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+}
+
+.about-img{
+   width: 40%;
+
+}
+.about-img img{
+   width: 100%;
+
+}
+
+.about-text{
+   width: 40%;
+
+}
+.about-text h2{
+   font-size: 2rem;
+   color: aquamarine;
+   text-shadow: 2px 2px 2px #000;
+
+
+}
+.aboout-text p{
+   font-size: 1.1rem;
+   line-height: 2rem;
+   color:black;
+
+}
+
+ /*=========================
+            SERVICE CSS
+===========================*/
+
+.service-section{
+   background-color: #f7f7f7;
+   padding: 5rem 11rem;
+
+}
+.service-heading{
+   text-align: center;
+}
+.service-heading h2{
+        font-size: 3rem;
+       color: black;
+
+}
+.service-heading p{
+
+  font-size: 1.3rem;
+       color: black;
+}
+.service-content{
+   max-width: 60rem;
+   margin: 0 auto;
+
+}
+.service-row{
+   display: flex;
+   justify-content: space-evenly;
+
+}
+.service-individual{
+   background-color: white;
+   padding: 3rem;
+   margin: 1rem;
+   border-bottom: 3px solid #7fffd4;
+   text-align: center;
+   transition: all 0.3s;
+}
+.service-individual:hover{
+   background-color: #7fffd4;
+
+}
+.service-individual:hover .svg-inline--fa{
+   color:#45dca9;
+   background-color: #f0f9f6;
+}
+.svg-inline--fa{
+   height: 2rem;
+   color: #fff;
+   background-color:#7fffd4;
+   width: 2rem;
+   padding: 3rem;
+   border-radius: 50%;
+}
+.service-individual img{
+
+}
+.service-individual h2{
+
+   margin-top: 1rem;
+}
+.service-individual p{
+
+}
+
+ /*=========================
+           REVIEW CSS
+===========================*/
+.review-section{
+   padding: 8rem 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       text-align: center;
+
+}
+.review-icon .svg-inline--fa{
+   height: 2.3rem;
+   color: #aea9a9;
+ 
+
+
+}
+.review-text{
+       color: black;
+       font-size: 1.5rem;
+       font-weight: 500;
+       width: 26rem;
+       line-height:2rem;
+   }
+
+
+.review-img img{
+   width: 50px;
+
+}
+.review-img h3 {
+   font-size: 21px;
+   color: #6f6f6f;
+}
+
+/*=========================
+           BLOG CSS
+===========================*/
+.blog-content{
+   background-color: #f7f7f7;
+   padding: 7rem 184px;
+
+}
+.section-title{
+   margin: -8px 1rem
+}
+.blog-text{
+
+   display: flex;
+    margin: 40px auto;
+    max-width: 80rem;
+    gap: 2rem;
+}
+.blog-individual{
+
+}
+.blog-individual img{
+   width: 100%;
+
+}
+.blog-category{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+
+}
+.blog-category h3{
+   font-weight: 500;
+   color: #bd4949;
+   font-size: 16px;
+
+}
+.blog-category h4{
+   font-size: 11px;
+
+}
+.blog-individual h2{
+   margin-top: 2rem;
+   font-size: 2rem;
+
+}
+.blog-individual p{
+
+}
+.blog-individual button{
+   background: #05dc97;
+   border: navajowhite;
+   color: #fff;
+   padding: 0.5rem 1rem;
+   border-radius: 5px;
+   margin-top: 25px;
+
+}
+/*=========================
+         FOOTER CSS
+===========================*/
+.footer-content{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 1rem 6rem;
+}
+.footer-menu{
+   font-size: 15px;
+}
+.footer-logo img{
+   width: 100px;
+}
+.footer-text p{
+   font-size: 11px;
+}
